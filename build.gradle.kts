@@ -17,9 +17,10 @@ dependencies {
     testAnnotationProcessor("org.projectlombok:lombok:1.18.38")
 
     testImplementation("org.assertj:assertj-core:3.27.7")
-
-    testImplementation(platform("org.junit:junit-bom:5.10.0"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
+    testImplementation(platform("org.junit:junit-bom:5.10.2"))
+    testImplementation("org.junit.jupiter:junit-jupiter-api")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
     implementation("org.reflections:reflections:0.10.2")
     implementation("ch.qos.logback:logback-classic:1.5.18")
