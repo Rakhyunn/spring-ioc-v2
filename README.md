@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <title>스프링부트 IoC 컨테이너 클론 - v2</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
-    code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
-    pre { background: #f4f4f4; padding: 12px; border-radius: 6px; overflow-x: auto; }
-    h1, h2 { color: #333; }
-    .box { background: #eef; padding: 10px; border-left: 4px solid #55f; margin-bottom: 15px; }
-  </style>
-</head>
-
 <h1> 스프링부트 IoC 컨테이너 클론 - v2 </h1>
 
 <div class="box">
@@ -169,9 +155,10 @@ v2에서는 실제 Spring의 동작 원리를 참고하여
 <hr>
 
 <h2>3️⃣ 후기</h2>
-- v2는 요구사항대로 빈 생성 시 하드코딩 방식을 사용하지 않고 작성하였습니다.
-- 생성자가 필요한 경우에는 생성자의 개수를 파악하고 생성자를 만들어서 작성하였습니다.
-- 이 작업을 사용해서 v3를 작업하겠습니다.
+
+v2는 요구사항대로 빈 생성 시 하드코딩 방식을 사용하지 않고 작성하였습니다.
+생성자가 필요한 경우에는 생성자의 개수를 파악하고 생성자를 만들어서 작성하였습니다.
+이 작업을 사용해서 v3를 작업하겠습니다.
 
 </body>
 </html>
