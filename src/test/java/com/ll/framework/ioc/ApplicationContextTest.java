@@ -1,8 +1,8 @@
 package com.ll.framework.ioc;
 
-import com.ll.domain.testPost.testPost.repository.TestPostRepository;
-import com.ll.domain.testPost.testPost.service.TestFacadePostService;
-import com.ll.domain.testPost.testPost.service.TestPostService;
+import com.ll.domain.testPost.repository.TestPostRepository;
+import com.ll.domain.testPost.service.TestFacadePostService;
+import com.ll.domain.testPost.service.TestPostService;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
